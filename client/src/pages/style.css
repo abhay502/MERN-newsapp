@@ -1,0 +1,44 @@
+/* styles.css */
+
+/* Light theme */
+body {
+    --background-color: #ffffff;
+    --text-color: #000000;
+  }
+  
+  /* Dark theme */
+  body.dark-mode {
+    --background-color: #1f1f1f;
+    --text-color: #ffffff;
+  } 
+  
+  /* Apply common styles */
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  /* Login.css */
+.login-container {
+  background-color: #2f0303;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust the height as needed */
+}
+
+.login-content {
+  background-color: #d3d3d3;
+
+  width: 700px; /* Set the maximum width for the login form */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+
+/* profile-edit-page root class */
+.containerr{
+  margin: 11rem;
+  border: 1px solid black;
+  
+}

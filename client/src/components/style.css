@@ -1,0 +1,77 @@
+
+.nav-link {
+    color: rgb(255, 255, 255);
+    transition: transform 0.3s ease;
+  }
+  .rounded-avatar {
+    border-radius: 50%;
+    cursor: pointer;
+  }
+.nav-link:hover{
+  transform: scale(1.2);
+}
+  .icon-text-gap {
+    margin-left: 8px; /* Adjust the value as needed for the desired gap */
+  }
+  .custom-bg-color {
+    margin: 5rem;
+    margin-top: 5rem;
+    background-color: #dde2e6; /* Replace with the color code of your choice */
+  }
+  body.dark-mode {
+
+    --background-color: #1f1f1f;
+    --text-color: #ffffff;
+    
+   
+    /* Apply custom background color when in dark mode */
+    .custom-bg-color {
+      margin: 5rem;
+      margin-top: 5rem;
+      background-color: #080809; /* Replace with the color code of your choice */
+    }
+    .p-3{
+       background-color: #1f1f1f;
+       color: #ffffff;
+    }
+    .nav-link {
+      color: rgb(255, 0, 0);
+    }
+    .abhay{
+      --background-color: #1f1f1f;
+      --text-color: #ffffff;
+    }
+  }
+
+  .img-fluid {
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+  /* Zoom effect on hover */
+  .img-fluid:hover {
+    transform: scale(1.1);
+  }
+
+  .fw-bold{
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  .fw-bold:hover{
+    transform: scale(1.1);
+  }
+  .navbar.fixed-top {
+    background-color: #1f1f1f;
+  }
+
+  .posters{
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+ 
+.posters::-webkit-scrollbar{
+    display: none;
+}
